@@ -39,7 +39,7 @@ struct Pageone: View{
                         Image(systemName:"arrow.right.circle.fill")
                             .resizable()
                             .frame(width: 50,height: 50)
-                            .padding(.top,UIScreen.main.bounds.height)
+                            .padding(.top,UIScreen.main.bounds.height-1000)
                             .padding(.leading,200)
                             
                             //.padding(.top,200)
