@@ -12,7 +12,7 @@ struct Pageone: View{
         NavigationView{
             VStack{
 
-                    Image("image_girl")
+                    Image("image_pageone")
                         .resizable()
                         .ignoresSafeArea()
 
@@ -31,7 +31,7 @@ struct Pageone: View{
                 Spacer()
                 
                 NavigationLink{
-                    Text("hello")
+                    Pagetwo()
                         
                 }label: {
                     LinearGradient(colors: [Color(red: 0.573, green: 0.639, blue: 0.992),Color(red:0.616,green:0.808,blue:1)], startPoint: .trailing, endPoint: .leading)
@@ -39,8 +39,8 @@ struct Pageone: View{
                         Image(systemName:"arrow.right.circle.fill")
                             .resizable()
                             .frame(width: 50,height: 50)
-                            .padding(.top,UIScreen.main.bounds.height-1000)
-                            .padding(.leading,200)
+                            .padding(.top,UIScreen.main.bounds.height-650)
+                            .padding(.leading,UIScreen.main.bounds.width-150)
                             
                             //.padding(.top,200)
                         )
