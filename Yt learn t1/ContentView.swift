@@ -40,7 +40,7 @@ struct ContentView: View {
                 
                 NavigationLink {
                     Pageone()
-                        //.navigationBarBackButtonHidden(true)
+                        .navigationBarBackButtonHidden(true)
           
                 } label: {
                         Text("Get Started")

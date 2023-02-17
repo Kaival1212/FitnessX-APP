@@ -16,6 +16,8 @@
 		B6C0500B29944730008DE0AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C0500A29944730008DE0AA /* ContentView.swift */; };
 		B6C0500D29944731008DE0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C0500C29944731008DE0AA /* Assets.xcassets */; };
 		B6C0501029944731008DE0AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C0500F29944731008DE0AA /* Preview Assets.xcassets */; };
+		F09B9E00299F0ABB005DEFC8 /* Pagethree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09B9DFF299F0ABB005DEFC8 /* Pagethree.swift */; };
+		F09B9E02299F0AC6005DEFC8 /* Pagefour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09B9E01299F0AC6005DEFC8 /* Pagefour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		B6C0500A29944730008DE0AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6C0500C29944731008DE0AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C0500F29944731008DE0AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F09B9DFF299F0ABB005DEFC8 /* Pagethree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagethree.swift; sourceTree = "<group>"; };
+		F09B9E01299F0AC6005DEFC8 /* Pagefour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagefour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				B6A3D4B3299ED23200BA307C /* Sign up and login */,
 				B62073A4299BB99C00A7D50C /* Pagetwo.swift */,
 				B62073A22999668A00A7D50C /* Pageone.swift */,
+				F09B9DFF299F0ABB005DEFC8 /* Pagethree.swift */,
+				F09B9E01299F0AC6005DEFC8 /* Pagefour.swift */,
 				B6C0500829944730008DE0AA /* Yt_learn_t1App.swift */,
 				B6C0500A29944730008DE0AA /* ContentView.swift */,
 				B6C0500C29944731008DE0AA /* Assets.xcassets */,
@@ -162,11 +168,13 @@
 			files = (
 				B62073A32999668A00A7D50C /* Pageone.swift in Sources */,
 				B6A3D4B7299EE6CD00BA307C /* Register Page-2.swift in Sources */,
+				F09B9E02299F0AC6005DEFC8 /* Pagefour.swift in Sources */,
 				B6A3D4B5299ED25400BA307C /* Register Page-1.swift in Sources */,
 				B6C0500B29944730008DE0AA /* ContentView.swift in Sources */,
 				B6C0500929944730008DE0AA /* Yt_learn_t1App.swift in Sources */,
 				B6A3D4B9299EFD0B00BA307C /* Register Page-3.swift in Sources */,
 				B62073A5299BB99C00A7D50C /* Pagetwo.swift in Sources */,
+				F09B9E00299F0ABB005DEFC8 /* Pagethree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

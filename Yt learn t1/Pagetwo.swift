@@ -31,7 +31,8 @@ struct Pagetwo:View{
             Spacer()
             
             NavigationLink{
-                Register_Page_1()
+                Pagethree()
+                    .navigationBarBackButtonHidden(true)
                 
             }label: {
                 LinearGradient(colors: [Color(red: 0.573, green: 0.639, blue: 0.992),Color(red:0.616,green:0.808,blue:1)], startPoint: .trailing, endPoint: .leading)

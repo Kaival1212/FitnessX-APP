@@ -74,7 +74,7 @@ struct Register_Page_1:View{
                 Spacer()
                 NavigationLink {
                     Register_Page_2()
-                        //.navigationBarBackButtonHidden(true)
+                        .navigationBarBackButtonHidden(true)
           
                 } label: {
                         Text("Register")
