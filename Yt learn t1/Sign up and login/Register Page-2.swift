@@ -69,7 +69,7 @@ struct Register_Page_2:View{
                 .padding(.bottom,5)
             
             NavigationLink {
-                Register_Page_2()
+                Register_Page_3()
                     .navigationBarBackButtonHidden(true)
                 
             } label: {
