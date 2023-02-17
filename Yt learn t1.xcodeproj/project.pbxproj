@@ -11,6 +11,7 @@
 		B62073A5299BB99C00A7D50C /* Pagetwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62073A4299BB99C00A7D50C /* Pagetwo.swift */; };
 		B6A3D4B5299ED25400BA307C /* Register Page-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A3D4B4299ED25400BA307C /* Register Page-1.swift */; };
 		B6A3D4B7299EE6CD00BA307C /* Register Page-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A3D4B6299EE6CD00BA307C /* Register Page-2.swift */; };
+		B6A3D4B9299EFD0B00BA307C /* Register Page-3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A3D4B8299EFD0B00BA307C /* Register Page-3.swift */; };
 		B6C0500929944730008DE0AA /* Yt_learn_t1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C0500829944730008DE0AA /* Yt_learn_t1App.swift */; };
 		B6C0500B29944730008DE0AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C0500A29944730008DE0AA /* ContentView.swift */; };
 		B6C0500D29944731008DE0AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C0500C29944731008DE0AA /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		B62073A4299BB99C00A7D50C /* Pagetwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagetwo.swift; sourceTree = "<group>"; };
 		B6A3D4B4299ED25400BA307C /* Register Page-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Register Page-1.swift"; sourceTree = "<group>"; };
 		B6A3D4B6299EE6CD00BA307C /* Register Page-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Register Page-2.swift"; sourceTree = "<group>"; };
+		B6A3D4B8299EFD0B00BA307C /* Register Page-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Register Page-3.swift"; sourceTree = "<group>"; };
 		B6C0500529944730008DE0AA /* Yt learn t1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yt learn t1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C0500829944730008DE0AA /* Yt_learn_t1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yt_learn_t1App.swift; sourceTree = "<group>"; };
 		B6C0500A29944730008DE0AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			children = (
 				B6A3D4B4299ED25400BA307C /* Register Page-1.swift */,
 				B6A3D4B6299EE6CD00BA307C /* Register Page-2.swift */,
+				B6A3D4B8299EFD0B00BA307C /* Register Page-3.swift */,
 			);
 			path = "Sign up and login";
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				B6A3D4B5299ED25400BA307C /* Register Page-1.swift in Sources */,
 				B6C0500B29944730008DE0AA /* ContentView.swift in Sources */,
 				B6C0500929944730008DE0AA /* Yt_learn_t1App.swift in Sources */,
+				B6A3D4B9299EFD0B00BA307C /* Register Page-3.swift in Sources */,
 				B62073A5299BB99C00A7D50C /* Pagetwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
