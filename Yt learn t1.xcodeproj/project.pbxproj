@@ -18,6 +18,7 @@
 		B6C0501029944731008DE0AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C0500F29944731008DE0AA /* Preview Assets.xcassets */; };
 		F09B9E00299F0ABB005DEFC8 /* Pagethree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09B9DFF299F0ABB005DEFC8 /* Pagethree.swift */; };
 		F09B9E02299F0AC6005DEFC8 /* Pagefour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09B9E01299F0AC6005DEFC8 /* Pagefour.swift */; };
+		F09B9E04299F0C4A005DEFC8 /* page 5 .swift in Sources */ = {isa = PBXBuildFile; fileRef = F09B9E03299F0C4A005DEFC8 /* page 5 .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B6C0500F29944731008DE0AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F09B9DFF299F0ABB005DEFC8 /* Pagethree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagethree.swift; sourceTree = "<group>"; };
 		F09B9E01299F0AC6005DEFC8 /* Pagefour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagefour.swift; sourceTree = "<group>"; };
+		F09B9E03299F0C4A005DEFC8 /* page 5 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "page 5 .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				B62073A22999668A00A7D50C /* Pageone.swift */,
 				F09B9DFF299F0ABB005DEFC8 /* Pagethree.swift */,
 				F09B9E01299F0AC6005DEFC8 /* Pagefour.swift */,
+				F09B9E03299F0C4A005DEFC8 /* page 5 .swift */,
 				B6C0500829944730008DE0AA /* Yt_learn_t1App.swift */,
 				B6C0500A29944730008DE0AA /* ContentView.swift */,
 				B6C0500C29944731008DE0AA /* Assets.xcassets */,
@@ -168,6 +171,7 @@
 			files = (
 				B62073A32999668A00A7D50C /* Pageone.swift in Sources */,
 				B6A3D4B7299EE6CD00BA307C /* Register Page-2.swift in Sources */,
+				F09B9E04299F0C4A005DEFC8 /* page 5 .swift in Sources */,
 				F09B9E02299F0AC6005DEFC8 /* Pagefour.swift in Sources */,
 				B6A3D4B5299ED25400BA307C /* Register Page-1.swift in Sources */,
 				B6C0500B29944730008DE0AA /* ContentView.swift in Sources */,
