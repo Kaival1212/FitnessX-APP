@@ -55,7 +55,7 @@ struct Register_Page_3: View {
                     
                 }
                 NavigationLink {
-                    Text("main Page")
+                    Dashboard1()
                         //.navigationBarBackButtonHidden(true)
                     
                 } label: {
