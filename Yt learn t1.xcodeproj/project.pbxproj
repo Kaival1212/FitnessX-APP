@@ -56,6 +56,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6494EDD29A269DB00C3E0AA /* Main Content */ = {
+			isa = PBXGroup;
+			children = (
+				F09B9E0529A04ABF005DEFC8 /* Dashboard 1 .swift */,
+				F01928C829A14A7900C5AC93 /* Notification.swift */,
+				F01928CA29A1674100C5AC93 /* Activity.swift */,
+				F01928CC29A16E8900C5AC93 /* Profile .swift */,
+				F01928CE29A17A5C00C5AC93 /* congo.swift */,
+			);
+			path = "Main Content";
+			sourceTree = "<group>";
+		};
 		B6A3D4B3299ED23200BA307C /* Sign up and login */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +97,7 @@
 		B6C0500729944730008DE0AA /* Yt learn t1 */ = {
 			isa = PBXGroup;
 			children = (
+				B6494EDD29A269DB00C3E0AA /* Main Content */,
 				B6A3D4B3299ED23200BA307C /* Sign up and login */,
 				B62073A4299BB99C00A7D50C /* Pagetwo.swift */,
 				B62073A22999668A00A7D50C /* Pageone.swift */,
@@ -92,11 +105,6 @@
 				F09B9E01299F0AC6005DEFC8 /* Pagefour.swift */,
 				B6C0500829944730008DE0AA /* Yt_learn_t1App.swift */,
 				B6C0500A29944730008DE0AA /* ContentView.swift */,
-				F09B9E0529A04ABF005DEFC8 /* Dashboard 1 .swift */,
-				F01928C829A14A7900C5AC93 /* Notification.swift */,
-				F01928CA29A1674100C5AC93 /* Activity.swift */,
-				F01928CC29A16E8900C5AC93 /* Profile .swift */,
-				F01928CE29A17A5C00C5AC93 /* congo.swift */,
 				B6C0500C29944731008DE0AA /* Assets.xcassets */,
 				B6C0500E29944731008DE0AA /* Preview Content */,
 			);

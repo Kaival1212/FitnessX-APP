@@ -15,6 +15,7 @@ struct Activity: View{
                     Spacer()
                     NavigationLink{
                         Notification()
+                            .navigationBarBackButtonHidden(true)
                     }label: {
                         Image("back button")
                             .padding(.bottom, 700.0)

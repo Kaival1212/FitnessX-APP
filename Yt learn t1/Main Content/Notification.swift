@@ -15,6 +15,7 @@ struct Notification: View{
                 HStack{
                     NavigationLink{
                         Dashboard1()
+                            .navigationBarBackButtonHidden(true)
                     }label: {
                         Image("back button")
                             .padding(.bottom, 700.0)

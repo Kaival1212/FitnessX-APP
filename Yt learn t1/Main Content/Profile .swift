@@ -16,6 +16,7 @@ struct profile: View{
                         Spacer()
                         NavigationLink{
                             Notification()
+                                .navigationBarBackButtonHidden(true)
                         }label: {
                             Image("back button")
                                 .padding(.bottom, 700.0)
@@ -52,6 +53,7 @@ struct profile: View{
                             Spacer()
                         NavigationLink{
                             Dashboard1()
+                                .navigationBarBackButtonHidden(true)
                         }label: {
                                 Image("home button")
                                 .frame(width: 19,height: 20)
@@ -62,6 +64,7 @@ struct profile: View{
                
                             NavigationLink{
                                 Activity()
+                                    .navigationBarBackButtonHidden(true)
                             }label: {
                                 Image("activity button")
                                     .frame(width: 18.36,height: 18.36)
@@ -69,6 +72,7 @@ struct profile: View{
                         Spacer()
                             NavigationLink{
                                 Register_Page_1()
+                                    .navigationBarBackButtonHidden(true)
                             }label: {
                                 Image("search button")
                                     
@@ -76,12 +80,14 @@ struct profile: View{
                         Spacer()
                             NavigationLink{
                                 congo()
+                                    .navigationBarBackButtonHidden(true)
                             }label: {
                                 Image("camera button")
                             }
                         Spacer()
                             NavigationLink{
                                 Register_Page_1()
+                                    .navigationBarBackButtonHidden(true)
                             }label: {
                                 Image("profile button")
                             }

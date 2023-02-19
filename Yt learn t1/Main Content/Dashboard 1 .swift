@@ -11,7 +11,6 @@ import SwiftUI
 struct Dashboard1: View{
     var body: some View{
         NavigationView{
-            
             ScrollView{
                 VStack{
                     Text("Welcome back ,")
@@ -28,15 +27,15 @@ struct Dashboard1: View{
                             .padding([.top],0.1)
                             .font(.custom("HelveticaNeue-bold",size: 18))
                         NavigationLink{
-                           Notification()
+                            Notification()
                         }label: {
                             Image(systemName:"bell")
                             
                                 .padding(.leading,UIScreen.main.bounds.width-65)
-                        
-                        
-                        }
                             
+                            
+                        }
+                        
                         
                         
                     }
@@ -66,7 +65,7 @@ struct Dashboard1: View{
                             .resizable()
                             .frame(width: 180,height: 400)
                             .padding(.trailing, -60.0)
-                            
+                        
                         
                         
                         VStack{
@@ -74,8 +73,8 @@ struct Dashboard1: View{
                                 .resizable()
                                 .frame(width: 180,height: 180)
                                 .padding(.trailing, 100.0)
-                               
-                                
+                            
+                            
                             
                             
                             
@@ -83,19 +82,19 @@ struct Dashboard1: View{
                                 .resizable()
                                 .frame(width: 180,height: 180)
                                 .padding(.trailing, 100.0)
-                                
+                            
                             
                             
                         }
                         
                     }
                     
-                   
+                    
                     
                     Image("Dashboard 7")
                         .resizable()
                         .frame(width: 315,height: 217)
-                        
+                    
                     HStack{
                         
                         Text("Latest workout")
@@ -108,73 +107,78 @@ struct Dashboard1: View{
                             .foregroundColor(.gray)
                             .padding(.trailing, 2.0)
                             .font(.custom("HelveticaNeue-bold", size: 12))
-                           
+                        
                     }
                     
                     
                     
                 }
-            
-                    Image("Dashboard 8")
-                        .resizable()
-                        .frame(width: 315,height: 80)
-                    
-                    Image("Dashboard 9")
+                
+                Image("Dashboard 8")
                     .resizable()
                     .frame(width: 315,height: 80)
-            
                 
+                Image("Dashboard 9")
+                    .resizable()
+                    .frame(width: 315,height: 80)
+                
+                
+                
+                Image("Dashboard 10")
+                    .resizable()
+                    .frame(width: 315,height: 80)
+                
+            
+                ZStack{
                     
-                    Image("Dashboard 10")
-                        .resizable()
-                        .frame(width: 315,height: 80)
-             
-
-                    ZStack{
-                        
-                        Image("Dashboard 11")
-                            
-                        HStack{
-                            Spacer()
+                    Image("Dashboard 11")
+                    
+                    HStack{
+                        Spacer()
                         NavigationLink{
                             Dashboard1()
+                                .navigationBarBackButtonHidden(true)
                         }label: {
-                                Image("home button")
+                            Image("home button")
                                 .frame(width: 19,height: 20)
-                                
-                                
+                            
+                            
                         }
                         .padding(.trailing, 40.0)
-               
-                            NavigationLink{
-                                Activity()
-                            }label: {
-                                Image("activity button")
-                                    .frame(width: 18.36,height: 18.36)
-                            }
-                        Spacer()
-                            NavigationLink{
-                                Register_Page_1()
-                            }label: {
-                                Image("search button")
-                                    
-                            }
-                        Spacer()
-                            NavigationLink{
-                                congo()
-                            }label: {
-                                Image("camera button")
-                            }
-                        Spacer()
-                            NavigationLink{
-                                Register_Page_1()
-                            }label: {
-                                Image("profile button")
-                            }
-                        Spacer()
+                        
+                        NavigationLink{
+                            Activity()
+                                .navigationBarBackButtonHidden(true)
+                        }label: {
+                            Image("activity button")
+                                .frame(width: 18.36,height: 18.36)
                         }
-                        
-                        
+                        Spacer()
+                        NavigationLink{
+                            Register_Page_1()
+                                .navigationBarBackButtonHidden(true)
+                        }label: {
+                            Image("search button")
+                            
+                        }
+                        Spacer()
+                        NavigationLink{
+                            congo()
+                                .navigationBarBackButtonHidden(true)
+                        }label: {
+                            Image("camera button")
+                        }
+                        Spacer()
+                        NavigationLink{
+                            Register_Page_1()
+                                .navigationBarBackButtonHidden(true)
+                        }label: {
+                            Image("profile button")
+                        }
+                        Spacer()
+                    }
+                    
+                    
                     
                 }
             }

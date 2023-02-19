@@ -49,6 +49,7 @@ struct congo: View{
                     
                     NavigationLink {
                         Dashboard1()
+                            .navigationBarBackButtonHidden(true)
                 //.navigationBarBackButtonHidden(true)
                         
                     } label: {
