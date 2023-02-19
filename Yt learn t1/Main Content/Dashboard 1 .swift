@@ -40,11 +40,11 @@ struct Dashboard1: View{
                         
                     }
                     
-                    
+                        
                     Image("Dashboard 1")
                         .resizable()
-                        .aspectRatio(contentMode: .fit)
-                    
+                        .frame(width: 390,height: 195)
+                   
                     Image("dashboard 2")
                         .resizable()
                         .frame(width:335,height:60)
@@ -155,7 +155,7 @@ struct Dashboard1: View{
                         }
                         Spacer()
                         NavigationLink{
-                            Register_Page_1()
+                            congo()
                                 .navigationBarBackButtonHidden(true)
                         }label: {
                             Image("search button")
@@ -163,7 +163,7 @@ struct Dashboard1: View{
                         }
                         Spacer()
                         NavigationLink{
-                            congo()
+                            camera()
                                 .navigationBarBackButtonHidden(true)
                         }label: {
                             Image("camera button")

@@ -71,15 +71,15 @@ struct profile: View{
                             }
                         Spacer()
                             NavigationLink{
-                                Register_Page_1()
-                                    .navigationBarBackButtonHidden(true)
+                                 congo()
+                                    //.navigationBarBackButtonHidden(true)
                             }label: {
                                 Image("search button")
                                     
                             }
                         Spacer()
                             NavigationLink{
-                                congo()
+                                camera()
                                     .navigationBarBackButtonHidden(true)
                             }label: {
                                 Image("camera button")
